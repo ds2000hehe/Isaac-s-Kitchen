@@ -42,26 +42,29 @@ Tested using a Nvidia 5070 GPU with CUDA 12.8
 
 ## Installation
 For Isaac-sim
-1. clone repository
-2. Launch Isaac sim and open kitchen_robot/dev_scene.usdz
-3. Run simulation, Camera will stream Image data to /rgb topic
+    1. clone repository
+    2. Launch Isaac sim and open kitchen_robot/dev_scene.usdz
+    3. Run simulation, Camera will stream Image data to /rgb topic
 
 For ROS package
-1. cd kitchen_ros
-2. python3.10 -m venv venv
-3. source venv/bin/activate
-4. pip install --upgrade pip
-5. pip install -r requirements.txt
+    cd kitchen_ros
+    python3.10 -m venv venv
+    source venv/bin/activate
+    pip install --upgrade pip
+    pip install -r requirements.txt
 
-6. pip install 'numpy<2.0' #optional
+    pip install 'numpy<2.0' #optional
 
-1. cd kitchen_ros
-2. colcon build --symlink-install #this may flag dependacy issues with Numpy, package is still basic but serves as a poc
-3. source install/setup.bash
-4. ros2 launch image_llm_interface Ask_llm.launch.py
+    cd kitchen_ros
+    colcon build --symlink-install #this may flag dependacy issues with Numpy, package is still basic but serves as a poc
+    source install/setup.bash
+    ros2 launch image_llm_interface Ask_llm.launch.py
 
 To view the VLM caption of the image, enter the local adress specified in kitchen_ros/src/LLM/scripts/ask_with_image_gui.py line 58, you may have to change this depending of which ports are availible.
 
-## Usage
+## Output
 
+![Kitchen_scene](images/Screenshot from 2025-08-12 11-13-08.png)
+
+![LLM-View](images/Screenshot from 2025-08-12 11-12-33.png)
 
