@@ -63,8 +63,6 @@ For ROS package
 To view the VLM caption of the image, enter the local adress specified in kitchen_ros/src/LLM/scripts/ask_with_image_gui.py line 58, you may have to change this depending of which ports are availible.
 
 ## Output
-
-![Kitchen_scene](images/Screenshot from 2025-08-12 11-13-08.png)
-
-![LLM-View](images/Screenshot from 2025-08-12 11-12-33.png)
+<img width="1314" height="546" alt="Image" src="https://github.com/user-attachments/assets/0f253074-bff1-449b-a5fa-e28a0f4c1de3" />
+<img width="1240" height="735" alt="Image" src="https://github.com/user-attachments/assets/bbd1298a-8d66-4dca-8270-0ddb7b23def5" />
 
