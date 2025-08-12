@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>image_llm_interface</name>
+  <version>0.1.0</version>
+  <description>ROS2 package integrating ZMQ video feed, image captioning, and LLM with GUI</description>
+
+  <maintainer email="davidssweetman@gmail.com">David</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Add ROS dependencies here if any -->
+
+  <exec_depend>rclpy</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
